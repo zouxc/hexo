@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Hexo]]></title>
+  <subtitle><![CDATA[hexo demo]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://reqianduan.com//"/>
+  <updated>2014-06-05T03:58:24.049Z</updated>
+  <id>http://reqianduan.com//</id>
+  
+  <author>
+    <name><![CDATA[xiangming]]></name>
+    
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://reqianduan.com/2014/06/03/hello-world/"/>
+    <id>http://reqianduan.com/2014/06/03/hello-world/</id>
+    <published>2014-06-03T02:34:00.000Z</published>
+    <updated>2014-06-04T10:33:56.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank">trobuleshooting</a> or you can ask me on <a href="https://github.com/tommy351/hexo/issues" target="_blank">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="google-code-prettify">google-code-prettify</h3>
+<figure class="highlight html"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td><td class="code"><pre><span class="tag">&lt;<span class="title">html</span>&gt;</span>
+<span class="tag">&lt;<span class="title">head</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"utf-8"</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">title</span>&gt;</span>google-code-prettify demo<span class="tag">&lt;/<span class="title">title</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"prettify.css"</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">head</span>&gt;</span>
+<span class="tag">&lt;<span class="title">body</span>&gt;</span>
+    
+    <span class="tag">&lt;<span class="title">pre</span>&gt;</span>
+        <span class="comment">&lt;!-- html/css/js --&gt;</span>
+        html/css/js
+    <span class="tag">&lt;/<span class="title">pre</span>&gt;</span>
+
+    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"jquery-1.9.1.min.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"prettify.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"run-prettify.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">body</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">html</span>&gt;</span>
+</pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="code"><pre><span class="comment">// Search</span>
+  <span class="keyword">var</span> $searchWrap = $(<span class="string">'#search-form-wrap'</span>),
+    isSearchAnim = <span class="literal">false</span>,
+    searchAnimDuration = <span class="number">200</span>;
+
+  <span class="keyword">var</span> startSearchAnim = <span class="function"><span class="keyword">function</span><span class="params">()</span>{</span>
+    isSearchAnim = <span class="literal">true</span>;
+  };
+
+  <span class="keyword">var</span> stopSearchAnim = <span class="function"><span class="keyword">function</span><span class="params">(callback)</span>{</span>
+    setTimeout(<span class="function"><span class="keyword">function</span><span class="params">()</span>{</span>
+      isSearchAnim = <span class="literal">false</span>;
+      callback && callback();
+    }, searchAnimDuration);
+  };
+</pre></td></tr></table></figure>
+
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo new <span class="string">"My New Post"</span>
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo server
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo generate
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo deploy
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank">Deployment</a></p>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://reqianduan.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
