@@ -132,7 +132,7 @@ body {
   zoom: 1;
   max-width: 1220px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .outer:before,
 .outer:after {
