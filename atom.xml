@@ -3,9 +3,9 @@
   <title><![CDATA[Hexo]]></title>
   <subtitle><![CDATA[hexo demo site]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://reqianduan.com//"/>
-  <updated>2014-07-01T07:11:14.559Z</updated>
-  <id>http://reqianduan.com//</id>
+  <link href="http://demo.reqianduan1.com//"/>
+  <updated>2014-07-07T05:51:24.861Z</updated>
+  <id>http://demo.reqianduan1.com//</id>
   
   <author>
     <name><![CDATA[xiangming]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://reqianduan.com/2014/06/03/hello-world/"/>
-    <id>http://reqianduan.com/2014/06/03/hello-world/</id>
+    <link href="http://demo.reqianduan1.com/2014/06/03/hello-world/"/>
+    <id>http://demo.reqianduan1.com/2014/06/03/hello-world/</id>
     <published>2014-06-03T02:34:00.000Z</published>
     <updated>2014-06-06T10:10:10.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/tommy351/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -120,7 +120,7 @@
 ]]></content>
     
     
-      <category term="hexo" scheme="http://reqianduan.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://demo.reqianduan1.com/tags/hexo/"/>
     
   </entry>
   
